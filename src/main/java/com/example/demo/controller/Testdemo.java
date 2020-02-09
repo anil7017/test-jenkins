@@ -9,6 +9,6 @@ public class Testdemo {
     @GetMapping("/test")
     public String showMessage() {
         System.out.println("inside hello controller......");
-        return "Hello Springboot";
+        return "Hello lipsa";
     }
 }
