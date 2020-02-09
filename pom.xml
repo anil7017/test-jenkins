@@ -23,6 +23,18 @@
 		<developerConnection>scm:git:https://github.com/anil7017/test-jenkins.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>nexus</name>
+			<url>http://localhost:8081/repository/maven-public/</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus</id>
+			<name>nexus</name>
+			<url>http://localhost:8081/repository/maven-public/</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
