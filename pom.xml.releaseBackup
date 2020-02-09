@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo1</artifactId>
-	<version>0.0.10-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -27,13 +27,13 @@
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>nexus</name>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
+			<url>http://localhost:8081/repository/maven-public/</url>
 		</snapshotRepository>
-		<repository>
+		<!--<repository>
 			<id>nexus</id>
 			<name>nexus</name>
-			<url>http://localhost:8081/repository/maven-releases/</url>
-		</repository>
+			<url>http://localhost:8081/repository/maven-public/</url>
+		</repository>-->
 	</distributionManagement>
 
 	<dependencies>
