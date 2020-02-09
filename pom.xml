@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo1</artifactId>
-	<version>0.0.11</version>
+	<version>0.0.12-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -21,7 +21,7 @@
 		<connection>scm:git:https://github.com/anil7017/test-jenkins.git</connection>
 		<url>https://github.com/anil7017/test-jenkins</url>
 		<developerConnection>scm:git:https://github.com/anil7017/test-jenkins.git</developerConnection>
-	  <tag>demo1-0.0.11</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<distributionManagement>
 		<snapshotRepository>
