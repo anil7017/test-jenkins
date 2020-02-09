@@ -18,6 +18,12 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<scm>
+		<connection>scm:git:https://github.com/anil7017/test-jenkins.git</connection>
+		<url>https://github.com/anil7017/test-jenkins</url>
+		<developerConnection>scm:git:https://github.com/anil7017/test-jenkins.git</developerConnection>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -38,7 +44,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>test3</finalName>
+		<!--<finalName>test3</finalName>-->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
